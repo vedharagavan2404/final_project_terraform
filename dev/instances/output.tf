@@ -1,4 +1,4 @@
-output "public_ip" {
-  description = "Public IP of EC2"
-  value       = aws_instance.k8s.public_ip
+# Add output variables
+output "eip" {
+  value = aws_eip.CLO835_final_project_static_eip.public_ip
 }

@@ -12,8 +12,8 @@ module "dev_ssh_sg" {
 module "ec2_sg" {
   source = "terraform-aws-modules/security-group/aws"
 
-  name        = "ec2_sg"
-  description = "Security group for ec2_sg"
+  name        = "CLO835_final_project_security_group"
+  description = "Security group for CLO835 final project"
   vpc_id      = data.aws_vpc.default.id
 
   ingress_cidr_blocks = ["0.0.0.0/0"]
