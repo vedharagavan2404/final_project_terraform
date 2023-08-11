@@ -5,7 +5,7 @@
 .terraform.lock.hcl
 
 # Ignore sensitive files containing credentials or secrets
-finalproject
+final_project_dev
 *.pub
 
 # Local .terraform directories
